@@ -1,0 +1,43 @@
+h1, h2, h3 {
+  font-size: 1.4rem;
+  line-height: 1.6rem;
+}
+
+p{
+  margin-bottom: 10px;
+}
+
+.card {
+  display: flex;
+  flex-direction: column-reverse;
+  height: 78%;
+  overflow: auto;
+}
+
+.card .card-content {
+  width: 100%;
+  text-align: center;
+  padding: 40px 20px;
+  height: 70%;
+}
+
+.card .card-content>p {
+  font-size: .8rem;
+  margin-bottom: 10px;
+}
+
+.card .card-content .stats {
+  flex-direction: column;
+  justify-content: center;
+}
+
+.card .card-content .stats p {
+  font-size: 12px;
+}
+
+.card .card-image {
+  width: 100%;
+  height: 30%;
+  background: url('../images/image-header-mobile.jpg') no-repeat center center/cover;
+  border-radius: 0;
+}
